@@ -1,12 +1,12 @@
-local util = require("tokyonight.util")
-local colors = require("tokyonight.colors")
+local util = require("glovebox.util")
+local colors = require("glovebox.colors")
 
 local M = {}
 
 ---@param config Config
 ---@return Theme
 function M.setup(config)
-  config = config or require("tokyonight.config")
+  config = config or require("glovebox.config")
 
   ---@class Theme
   local theme = {}
