@@ -36,7 +36,7 @@ function M.setup(config)
     purple = "#9d7cd8",
     orange = "#fe8019",
     redorange = "#fb4934",
-    yellow = "#e0af68",
+    yellow = "#fabd2f",
     green = "#9ece6a",
     green1 = "#73daca",
     green2 = "#41a6b5",
