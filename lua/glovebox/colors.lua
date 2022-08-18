@@ -22,7 +22,7 @@ function M.setup(config)
     fg_gutter = "#a89984",
     dark3 = "#545c7e",
     comment = "#928374",
-    dark5 = "#292e42",
+    dark5 = "#504945",
     blue0 = "#3d59a1",
     blue = "#7aa2f7",
     cyan = "#7dcfff",

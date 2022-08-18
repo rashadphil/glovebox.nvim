@@ -92,7 +92,7 @@ function M.setup(config)
     Identifier = { fg = c.magenta, style = config.variableStyle }, -- (preferred) any variable name
     Function = { fg = c.vomitgreen, style = config.functionStyle }, -- function name (also: methods for classes)
 
-    Statement = { fg = c.magenta }, -- (preferred) any statement
+    Statement = { fg = c.red }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
     -- Repeat        = { }, --   for, do, while, etc.
     -- Label         = { }, --    case, default, etc.
