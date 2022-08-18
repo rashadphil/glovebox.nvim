@@ -245,7 +245,7 @@ function M.setup(config)
     TSStringRegex = { fg = c.green }, -- For regexes.
     TSStringEscape = { fg = c.green }, -- For escape characters within a string.
     -- TSSymbol            = { };    -- For identifiers referring to symbols or atoms.
-    -- TSType              = { };    -- For types.
+    TSType = { fg = c.yellow }, -- For types.
     -- TSTypeBuiltin       = { };    -- For builtin types.
     TSVariable = { style = config.variableStyle }, -- Any variable name that does not have another highlight.
     TSVariableBuiltin = { fg = c.blue0 }, -- Variable names that are defined by the languages, like `this` or `self`.
