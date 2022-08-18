@@ -13,11 +13,11 @@ function M.setup(config)
 
   colors = {
     none = "NONE",
-    bg_dark = "#1d2021",
-    bg = "#1d2021",
+    bg_dark = "#1f2335",
+    bg = "#24283b",
     bg_highlight = "#292e42",
     terminal_black = "#414868",
-    fg = "#ebdbb2",
+    fg = "#c0caf5",
     fg_dark = "#a9b1d6",
     fg_gutter = "#3b4261",
     dark3 = "#545c7e",
@@ -40,10 +40,10 @@ function M.setup(config)
     green = "#9ece6a",
     green1 = "#73daca",
     green2 = "#41a6b5",
+    vomitgreen = "#b8bb26",
     teal = "#1abc9c",
-    red = "#f7768e",
-    red1 = "#db4b4b",
-    white = "#ffffff",
+    red = "#db4b4b",
+    red1 = "#f7768e",
     git = { change = "#6183bb", add = "#449dab", delete = "#914c54", conflict = "#bb7a61" },
     gitSigns = { add = "#164846", change = "#394b70", delete = "#823c41" },
   }
