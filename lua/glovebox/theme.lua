@@ -224,13 +224,13 @@ function M.setup(config)
     -- TSFloat             = { };    -- For floats.
     -- TSFunction          = { };    -- For function (calls and definitions).
     -- TSFuncBuiltin       = { };    -- For builtin functions: `table.insert` in Lua.
-    -- TSFuncMacro         = { };    -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
+    TSFuncMacro = { fg = c.vomitgreen }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     -- TSInclude           = { };    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
     TSKeyword = { fg = c.red, style = config.keywordStyle }, -- For keywords that don't fall in previous categories.
     TSKeywordFunction = { fg = c.red, style = config.functionStyle }, -- For keywords used to define a fuction.
     TSLabel = { fg = c.orange }, -- For labels: `label:` in C and `:label:` in Lua.
     -- TSMethod            = { };    -- For method calls and definitions.
-    -- TSNamespace         = { };    -- For identifiers referring to modules and namespaces.
+    TSNamespace = { fg = c.yellow }, -- For identifiers referring to modules and namespaces.
     -- TSNone              = { };    -- TODO: docs
     -- TSNumber            = { };    -- For all numbers
     TSOperator = { fg = c.orange }, -- For any operator: `+`, but also `->` and `*` in C.
@@ -247,7 +247,7 @@ function M.setup(config)
     -- TSSymbol            = { };    -- For identifiers referring to symbols or atoms.
     TSType = { fg = c.yellow }, -- For types.
     -- TSTypeBuiltin       = { };    -- For builtin types.
-    TSVariable = { style = config.variableStyle }, -- Any variable name that does not have another highlight.
+    TSVariable = { fg = c.fg, style = config.variableStyle }, -- Any variable name that does not have another highlight.
     TSVariableBuiltin = { fg = c.blue0 }, -- Variable names that are defined by the languages, like `this` or `self`.
 
     -- TSTag               = { };    -- Tags like html tag names.
