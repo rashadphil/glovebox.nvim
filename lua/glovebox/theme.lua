@@ -85,7 +85,7 @@ function M.setup(config)
     Constant = { fg = c.red }, -- (preferred) any constant
     String = { fg = c.green }, --   a string constant: "this is a string"
     Character = { fg = c.green }, --  a character constant: 'c', '\n'
-    -- Number        = { }, --   a number constant: 234, 0xff
+    Number = { fg = c.purple }, --   a number constant: 234, 0xff
     -- Boolean       = { }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
 
@@ -457,6 +457,9 @@ function M.setup(config)
     CmpItemKindEnumMember = { fg = c.green1, bg = c.none },
     CmpItemKindOperator = { fg = c.green1, bg = c.none },
     CmpItemKindSnippet = { fg = c.dark5, bg = c.none },
+
+    -- Indent BlankLine
+    IndentBlankLineChar = { fg = c.dark5, bg = c.none },
   }
 
   theme.defer = {}
