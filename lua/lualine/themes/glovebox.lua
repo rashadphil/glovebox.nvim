@@ -7,7 +7,7 @@ local glovebox = {}
 glovebox.normal = {
   a = { bg = colors.fg_gutter, fg = colors.black },
   b = { bg = colors.dark5, fg = colors.fg },
-  c = { bg = colors.dark5, fg = colors.fg },
+  c = { bg = colors.bg_highlight, fg = colors.fg },
 }
 
 glovebox.insert = {
