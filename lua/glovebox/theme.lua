@@ -268,8 +268,8 @@ function M.setup(config)
     LspTroubleText = { fg = c.fg_dark },
     LspTroubleCount = { fg = c.magenta, bg = c.fg_gutter },
     LspTroubleNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
-    LspTroubleFile = { fg = c.vomitgreen },
-    LspTroubleCount = { fg = c.vomitgreen },
+    TroubleFile = { fg = c.vomitgreen },
+    TroubleCount = { fg = c.vomitgreen },
 
     -- Illuminate
     illuminatedWord = { bg = c.fg_gutter },
