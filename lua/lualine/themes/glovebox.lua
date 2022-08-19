@@ -32,8 +32,8 @@ glovebox.replace = {
 
 glovebox.inactive = {
   a = { bg = colors.bg_statusline, fg = colors.blue },
-  b = { bg = colors.bg_statusline, fg = colors.fg_gutter, gui = "bold" },
-  c = { bg = colors.bg_statusline, fg = colors.fg_gutter },
+  b = { bg = colors.bg_statusline, fg = colors.bg_statusline, gui = "bold" },
+  c = { bg = colors.bg_statusline, fg = colors.bg_statusline },
 }
 
 if vim.o.background == "light" then
