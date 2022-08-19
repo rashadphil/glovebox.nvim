@@ -12,23 +12,22 @@ glovebox.normal = {
 
 glovebox.insert = {
   a = { bg = colors.vomitgreen, fg = colors.black },
-  c = { bg = colors.dark5, fg = colors.vomitgreen },
   b = { bg = colors.dark5, fg = colors.vomitgreen },
 }
 
 glovebox.command = {
   a = { bg = colors.yellow, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.yellow },
+  b = { bg = colors.dark5, fg = colors.yellow },
 }
 
 glovebox.visual = {
   a = { bg = colors.magenta, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.magenta },
+  b = { bg = colors.dark5, fg = colors.magenta },
 }
 
 glovebox.replace = {
   a = { bg = colors.red, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.red },
+  b = { bg = colors.dark5, fg = colors.red },
 }
 
 glovebox.inactive = {
