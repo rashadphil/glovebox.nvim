@@ -84,7 +84,7 @@ function M.setup(config)
   colors.bg_search = colors.blue0
   colors.fg_sidebar = colors.fg_dark
 
-  colors.error = colors.red1
+  colors.error = colors.red
   colors.warning = colors.yellow
   colors.info = colors.blue2
   colors.hint = colors.teal
