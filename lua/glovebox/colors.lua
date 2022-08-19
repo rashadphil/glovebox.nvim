@@ -82,7 +82,7 @@ function M.setup(config)
 
   colors.bg_visual = util.darken(colors.blue0, 0.7)
   colors.bg_search = colors.blue0
-  colors.fg_sidebar = colors.bg_dark
+  colors.fg_sidebar = colors.fg_dark
 
   colors.error = colors.red1
   colors.warning = colors.yellow
