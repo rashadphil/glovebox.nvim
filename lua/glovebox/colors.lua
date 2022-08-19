@@ -23,6 +23,7 @@ function M.setup(config)
     dark3 = "#545c7e",
     comment = "#928374",
     dark5 = "#504945",
+    visual = "#3f3f3f",
     blue0 = "#7aa2f7",
     blue = "#7aa2f7",
     cyan = "#7dcfff",
@@ -80,8 +81,8 @@ function M.setup(config)
   colors.bg_sidebar = (config.transparentSidebar and colors.none) or config.darkSidebar and colors.bg_dark or colors.bg
   colors.bg_float = config.darkFloat and colors.bg_dark or colors.bg
 
-  colors.bg_visual = util.darken(colors.blue0, 0.7)
-  colors.bg_search = colors.blue0
+  colors.bg_visual = util.darken(colors.visual, 0.7)
+  colors.bg_search = colors.visual
   colors.fg_sidebar = colors.fg_dark
 
   colors.error = colors.red
