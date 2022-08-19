@@ -5,9 +5,9 @@ local util = require("glovebox.util")
 local glovebox = {}
 
 glovebox.normal = {
-  a = { bg = colors.blue, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.blue },
-  c = { bg = colors.bg_statusline, fg = colors.fg_sidebar },
+  a = { bg = colors.fg_gutter, fg = colors.black },
+  b = { bg = colors.dark5, fg = colors.fg },
+  c = { bg = colors.dark5, fg = colors.fg },
 }
 
 glovebox.insert = {
