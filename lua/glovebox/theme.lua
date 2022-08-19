@@ -223,6 +223,7 @@ function M.setup(config)
     TSField = { fg = c.green }, -- For fields.
     -- TSFloat             = { };    -- For floats.
     -- TSFunction          = { };    -- For function (calls and definitions).
+    TSFunctionCall = { fg = c.vomitgreen, style = "bold" },
     -- TSFuncBuiltin       = { };    -- For builtin functions: `table.insert` in Lua.
     TSFuncMacro = { fg = c.vomitgreen }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     -- TSInclude           = { };    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
