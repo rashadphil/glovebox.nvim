@@ -82,7 +82,7 @@ function M.setup(config)
     -- default,
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Constant = { fg = c.red }, -- (preferred) any constant
+    Constant = { fg = c.fg }, -- (preferred) any constant
     String = { fg = c.green }, --   a string constant: "this is a string"
     Character = { fg = c.green }, --  a character constant: 'c', '\n'
     Number = { fg = c.purple }, --   a number constant: 234, 0xff
@@ -239,7 +239,7 @@ function M.setup(config)
     TSProperty = { fg = c.fg }, -- Same as `TSField`.
     TSPunctDelimiter = { fg = c.comment }, -- For delimiters ie: `.`
     TSPunctBracket = { fg = c.fg }, -- For brackets and parens.
-    TSPunctSpecial = { fg = c.blue0 }, -- For special punctutation that does not fall in the catagories before.
+    TSPunctSpecial = { fg = c.cyan }, -- For special punctutation that does not fall in the catagories before.
     -- TSRepeat            = { };    -- For keywords related to loops.
     -- TSString            = { };    -- For strings.
     TSStringRegex = { fg = c.green }, -- For regexes.
