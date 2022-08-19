@@ -11,8 +11,9 @@ glovebox.normal = {
 }
 
 glovebox.insert = {
-  a = { bg = colors.green, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.green },
+  a = { bg = colors.vomitgreen, fg = colors.black },
+  c = { bg = colors.dark5, fg = colors.vomitgreen },
+  b = { bg = colors.dark5, fg = colors.vomitgreen },
 }
 
 glovebox.command = {
