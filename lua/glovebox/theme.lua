@@ -362,7 +362,7 @@ function M.setup(config)
     LspSagaDefPreviewBorder = { fg = c.border_highlight },
     LspSagaCodeActionBorder = { fg = c.border_highlight },
     LspSagaFinderSelection = { fg = c.bg_visual },
-    LspSagaCodeActionTitle = { fg = c.blue1 },
+    LspSagaCodeActionTitle = { fg = c.orange },
     LspSagaCodeActionContent = { fg = c.purple },
     LspSagaSignatureHelpBorder = { fg = c.border_highlight },
     ReferencesCount = { fg = c.purple },
